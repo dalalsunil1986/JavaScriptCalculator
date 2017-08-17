@@ -1,19 +1,39 @@
 .calcHead {
+
+    margin-right: 22px;
     border: solid;
     border-color: aliceblue;
     background-color: black;
     color: white;
     text-align: right;
-    height: 75px
+    height: 75px;
 }
 
 .calcHead h1 {
-    margin-right: 10px
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: grey;
 }
 
-.calcBtn {
+.opt {
     width: 135px;
     height: 80px;
     margin-bottom: 5px;
+    margin-right: 5px;
+    background-color: black;
+    color: white;
+}
+
+.calcBtn {
+    width: 182px;
+    height: 80px;
+    background-color: grey;
+    color: white;
+    margin-bottom: 5px;
     margin-right: 5px
+}
+
+.equal {
+    color: #fefefe;
+    background-color: #3079ed;
 }

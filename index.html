@@ -16,12 +16,16 @@
             </div>
             <div class="col-sm-6">
                 <div class="col-sm-12">
-                    <div style="border: solid;border-color: aliceblue; background-color: black;color: white;text-align: right;height: 75px">
-                        <h1 style="margin-right: 10px">{{value}}</h1>
+                    <div class="calcHead">
+                        <h1>{{value}}</h1>
                     </div>
-                    <button style="width: 135px; height: 80px;margin-bottom: 5px; margin-right: 5px"
-                            ng-repeat="btn in buttons" ng-click="getData(btn)">{{btn}}
+                    <button class="opt"
+                            ng-repeat="opt in operators" ng-click="optFun(opt)"><strong>{{opt}}</strong>
                     </button>
+                    <button class="calcBtn"
+                            ng-repeat="btn in buttons" ng-click="numbFun(btn)"><strong>{{btn}}</strong>
+                    </button>
+                    <button class="calcBtn equal" ng-click="equals()"><strong>=</strong></button>
                 </div>
             </div>
             <div class="col-sm-3 sidenav">
