@@ -1,0 +1,19 @@
+.calcHead {
+    border: solid;
+    border-color: aliceblue;
+    background-color: black;
+    color: white;
+    text-align: right;
+    height: 75px
+}
+
+.calcHead h1 {
+    margin-right: 10px
+}
+
+.calcBtn {
+    width: 135px;
+    height: 80px;
+    margin-bottom: 5px;
+    margin-right: 5px
+}
